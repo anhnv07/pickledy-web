@@ -1,0 +1,96 @@
+import type { MatchGroup, WeekdayOption } from "../models/match";
+
+export const weekdayOptions: WeekdayOption[] = [
+  { key: "T4 8", weekdayLabel: "T4", dateLabel: "8" },
+  { key: "T5 9", weekdayLabel: "T5", dateLabel: "9" },
+  { key: "T6 10", weekdayLabel: "T6", dateLabel: "10" },
+  { key: "T7 11", weekdayLabel: "T7", dateLabel: "11" },
+  { key: "CN 12", weekdayLabel: "CN", dateLabel: "12" },
+  { key: "T2 13", weekdayLabel: "T2", dateLabel: "13" },
+];
+
+export const mockMatchGroups: MatchGroup[] = [
+  {
+    time: "17:00",
+    matches: [
+      {
+        id: "17-1",
+        clubName: "NGHIÊN PICKLEBALL",
+        level: "3.5 - 4.5",
+        price: "100,000đ/người",
+        venue: "The MM Pickleball Club",
+        typeLabel: "Giao hữu CLB",
+        currentPlayers: 16,
+        maxPlayers: 24,
+        distance: "9.8km",
+        status: "available",
+      },
+      {
+        id: "17-2",
+        clubName: "ELITE SPORT",
+        level: "Tất cả trình độ",
+        price: "75,000đ/người",
+        venue: "Pacific Club",
+        typeLabel: "Giao hữu CLB",
+        currentPlayers: 12,
+        maxPlayers: 32,
+        distance: "9.8km",
+        status: "available",
+      },
+      {
+        id: "17-3",
+        clubName: "MINIONS PICKLEBALL",
+        level: "Tất cả trình độ",
+        price: "Miễn phí",
+        venue: "MM Club",
+        typeLabel: "Giao hữu CLB",
+        currentPlayers: 32,
+        maxPlayers: 32,
+        distance: "9.8km",
+        status: "full",
+      },
+    ],
+  },
+  {
+    time: "18:00",
+    matches: [
+      {
+        id: "18-1",
+        clubName: "TA CLUB",
+        level: "3.0 - 4.5",
+        price: "80,000đ/người",
+        venue: "Sân Q2",
+        typeLabel: "Giao hữu CLB",
+        currentPlayers: 30,
+        maxPlayers: 32,
+        distance: "2.1km",
+        status: "available",
+      },
+      {
+        id: "18-2",
+        clubName: "HOANG BAO",
+        level: "3.0 - 3.5",
+        price: "Miễn phí",
+        venue: "Sân Tân Phú",
+        typeLabel: "Giao hữu Cá nhân",
+        currentPlayers: 8,
+        maxPlayers: 12,
+        distance: "1.2km",
+        status: "available",
+      },
+      {
+        id: "18-3",
+        clubName: "VIETCLUB SOCIAL",
+        level: "2.5 - 5.0",
+        price: "Chia đều",
+        venue: "Kingdom Saigon",
+        typeLabel: "Giao hữu CLB",
+        currentPlayers: 8,
+        maxPlayers: 30,
+        distance: "14km",
+        status: "available",
+      },
+    ],
+  },
+];
+
