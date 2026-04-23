@@ -59,7 +59,7 @@ export default function LoginScreen() {
                     <StepIndicator total={2} activeIndex={0} className="max-w-full" />
                 </div>
 
-                <div className="mt-10 max-w-[520px]">
+                <div className="mt-10 w-full">
                     <h1 className="text-[28px] font-bold tracking-tight text-near-black">
                         Nhập số điện thoại
                     </h1>
@@ -97,7 +97,7 @@ export default function LoginScreen() {
                             </div>
                         </FormField>
 
-                        <p className="mt-4 text-[13px] leading-relaxed text-secondary-gray max-w-[520px]">
+                        <p className="mt-4 text-[13px] leading-relaxed text-secondary-gray">
                             {disclaimer}
                         </p>
                     </form>

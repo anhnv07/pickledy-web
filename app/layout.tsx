@@ -22,7 +22,7 @@ export default function RootLayout({
       lang="en"
       className={`${plusJakartaSans.variable} h-full antialiased`}
     >
-      <body className="min-h-dvh mx-auto w-full max-w-[430px] overflow-scroll !bg-[var(--ds-color-bg)] shadow-[var(--ds-shadow-card)]">
+      <body className="relative min-h-dvh mx-auto w-full overflow-x-hidden overflow-y-auto !bg-[var(--ds-color-bg)] shadow-[var(--ds-shadow-card)]">
         {children}
       </body>
     </html>

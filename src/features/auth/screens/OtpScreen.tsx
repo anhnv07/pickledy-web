@@ -98,7 +98,7 @@ export default function OtpScreen() {
           <StepIndicator total={2} activeIndex={1} className="max-w-full" />
         </div>
 
-        <div className="mt-10 max-w-[520px]">
+        <div className="mt-10 w-full">
           <h1 className="text-[28px] font-bold tracking-tight text-near-black">
             Nhập mã xác nhận
           </h1>

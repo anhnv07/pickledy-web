@@ -104,7 +104,7 @@ export default function ProfileCreateScreen() {
         noValidate
       >
         <Container className="flex-1 pt-[calc(12px+env(safe-area-inset-top))] pb-6">
-          <div className="mx-auto w-full max-w-[520px]">
+          <div className="w-full">
             <h1 className="text-center text-[28px] font-bold tracking-tight text-near-black">
               Tạo hồ sơ của bạn
             </h1>
